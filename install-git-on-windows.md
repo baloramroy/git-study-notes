@@ -25,17 +25,17 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
    ![git download](./images/image1.png)
 
-#### **Step 2: Launch the Installer**  
+**Step 2: Launch the Installer**  
 - Locate the downloaded installer and double-click to run it.  
 - If prompted by **User Account Control**, click **Yes** to allow changes.  
 
 
-#### **Step 3: License Agreement**  
+**Step 3: License Agreement**  
 - Read the GNU General Public License.  
 - Click **Next** to proceed.  
 
 
-#### **Step 4: Select Destination Location**  
+**Step 4: Select Destination Location**  
 - Accept the default installation folder:  
    ```
    C:\Program Files\Git
@@ -47,7 +47,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 ---
 
-#### **Step 5: Select Components**  
+**Step 5: Select Components**  
 - Choose the components to install (**recommended** selections by **default**):
   - [ ] Additional icons (optional)    
   - [x] **Windows Explorer integration**  
@@ -63,7 +63,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
    ![program location](./images/image3.png)
 
 
-#### **Step 6: Start Menu Folder**  
+**Step 6: Start Menu Folder**  
 - Accept the default Start Menu folder or choose **Don’t create a Start Menu folder**.
 - I choose to default which create start menu folder.  
 - Click **Next**.  
@@ -72,7 +72,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 7: Choose Default Editor**  
+**Step 7: Choose Default Editor**  
 - Select **Use Visual Studio Code as Git’s default editor** (recommended).  
 - Click **Next**.  
    
@@ -80,7 +80,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 8: Adjust Initial Branch Name**  
+**Step 8: Adjust Initial Branch Name**  
 - Select **Override the default branch name for new repositories**.  
 - Enter **`main`** as the default branch name (recommended).  
 - Click **Next**.  
@@ -89,7 +89,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 9: Adjust PATH Environment**  
+**Step 9: Adjust PATH Environment**  
 - Select:  
   - [x] **Git from the command line and also from 3rd-party software** (Recommended)  
   
@@ -99,7 +99,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 10: Choose SSH Executable**  
+**Step 10: Choose SSH Executable**  
 - Select **Use bundled OpenSSH** (default).  
 - Click **Next**.
 
@@ -107,7 +107,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 11: Choose HTTPS Transport Backend**  
+**Step 11: Choose HTTPS Transport Backend**  
 - Select:  
   - [x] **Use the OpenSSL library** (default).  
 
@@ -117,7 +117,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 12: Configure Line Ending Conversions**  
+**Step 12: Configure Line Ending Conversions**  
 - Select:  
   - [x] **Checkout Windows-style, commit Unix-style line endings** (recommended for cross-platform work).  
 
@@ -127,7 +127,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 13: Choose Terminal Emulator**  
+**Step 13: Choose Terminal Emulator**  
 - Select:  
   - [x] **Use MinTTY** (recommended for better terminal experience).  
 
@@ -137,7 +137,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 14: Configure `git pull` Behavior**  
+**Step 14: Configure `git pull` Behavior**  
 - Select:  
   - [x] **Fast-forward or merge** (default and recommended).  
 
@@ -147,7 +147,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
 
 
 
-#### **Step 15: Choose Credential Helper**  
+**Step 15: Choose Credential Helper**  
 - Select Git credential manager (recommended for secure credential storage):  
   - [x] **Git Credential Manager**
 
@@ -156,7 +156,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
    ![program location](./images/image13.png)
 
 
-#### **Step 16: Configure Extra Options**  
+**Step 16: Configure Extra Options**  
 - Enable:  
   - [x] **Enable file system caching** (performance boost)  
   - [ ] **Enable symbolic links** (if supported by your system)  
@@ -166,7 +166,7 @@ To provide step-by-step instructions for installing Git on a Windows system, inc
    ![program location](./images/image14.png)
 
 
-#### **Step 17: Begin Installation**  
+**Step 17: Begin Installation**  
 1. Review settings.  
 2. Click **Install**.  
 3. Wait for installation to complete (progress bar will show).  
