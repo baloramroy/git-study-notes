@@ -23,6 +23,8 @@ In simple terms:
 
 As we came to know about **git** we also came to know another terms call **Version Control System**. Now the question arise what is version control system?
 
+---
+
 ## 2. Version Control System (VCS)?
 
 A **Version Control System** is a tool that:
@@ -34,8 +36,9 @@ A **Version Control System** is a tool that:
 
 Without a VCS, managing code changes manually becomes **error-prone and unscalable**.
 
+---
 
-### Categories of Version Control Systems
+## 3. Categories of Version Control Systems
 
 Version Control Systems are mainly divided into **three categories**:
 
@@ -43,7 +46,9 @@ Version Control Systems are mainly divided into **three categories**:
 
 **Concept:**
 
-* Versions are stored **locally on a single machine**
+A **Local Version Control** System is a **self-contained** version management tool that tracks **file revisions** exclusively on an **individual user's machine**.
+
+* It maintains a **private database** of file **snapshots, changes, and history** without any networking
 * No collaboration support
 
 **How it works:**
@@ -61,6 +66,7 @@ Version Control Systems are mainly divided into **three categories**:
 * High risk of data loss
 * Not suitable for modern development
 
+---
 
 ### 3.2 Centralized Version Control System (CVCS)
 
@@ -71,7 +77,7 @@ The **central repository** stores the complete project history, and users must c
 
 **How it works:**
 
-* One main repository
+* One main repository on the central server
 * Clients depend on the central server
 
 **Example tools:**
@@ -91,6 +97,7 @@ The **central repository** stores the complete project history, and users must c
 * Requires network connectivity
 * Slower for large teams
 
+---
 
 ### 3.3 Distributed Version Control System (DVCS)
 
@@ -102,7 +109,7 @@ Even if the central server goes offline, users can **continue working independen
 **How it works:**
 
 * Each developer clones the full repository
-* Work can be done **offline**
+* Work can be done even network goes **offline**
 * Changes are synchronized when needed
 
 **Example tools:**
@@ -111,7 +118,7 @@ Even if the central server goes offline, users can **continue working independen
 * Mercurial
 
 **Advantages:**
-
+* No single point of failure
 * High performance
 * Offline work supported
 * Strong collaboration and branching
@@ -119,6 +126,7 @@ Even if the central server goes offline, users can **continue working independen
 
 **Git belongs to this category.**
 
+---
 
 ## Why Git is Preferred Today
 
@@ -127,20 +135,7 @@ Even if the central server goes offline, users can **continue working independen
 * Strong branching and merging capabilities
 * Perfect fit for **DevOps and automation pipelines**
 
-
-
 ---
 
-### Centralized Version Control System (CVCS)
-
-In a **Centralized** version control system, all team members connect to a **central server** to get the latest copy of the code and to share their changes with others.
-The **central repository** stores the complete project history, and users must communicate with this server to commit or update code.
-
----
-
-### Distributed Version Control System (DVCS)
-
-In a **Distributed** version control system, each team member has a **full copy of the code and the entire repository** on their local machine.
-Even if the central server goes offline, users can **continue working independently** and synchronize their changes later.
 
 
