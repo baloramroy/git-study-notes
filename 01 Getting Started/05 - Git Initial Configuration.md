@@ -1,7 +1,7 @@
 
-# Git Initial Configuration (After First Installation)
+# Git Initial Configuration - After First Installation
 
-## Git Configuration Levels (Very Important)
+## Git Configuration Levels
 
 Git allows configuration at **three different levels**.
 Understanding this prevents confusion later.

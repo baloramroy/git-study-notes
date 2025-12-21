@@ -1,7 +1,9 @@
 
 # Introduction to Git
 
-## 1. What is Git?
+## Git
+
+**What is Git?**
 
 **Git** is a **Distributed Version Control System (DVCS)** used to **track changes in source code**, manage **multiple versions of files**, and enable **collaboration among developers or engineers**.
 
@@ -14,7 +16,7 @@ In simple terms:
 
 >**Note:** Git was created by **Linus Torvalds** in **2005** to manage the Linux kernel source code efficiently.
 
-### Why Git is important
+## Why Git is important
 
 * Prevents **accidental data loss**
 * Makes **team collaboration easier**
@@ -25,7 +27,9 @@ As we came to know about **git** we also came to know another terms call **Versi
 
 ---
 
-## 2. Version Control System (VCS)?
+## Version Control System (VCS)?
+
+**What is Version Control System?**
 
 A **Version Control System** is a tool that:
 
@@ -38,11 +42,11 @@ Without a VCS, managing code changes manually becomes **error-prone and unscalab
 
 ---
 
-## 3. Categories of Version Control Systems
+## Categories of Version Control Systems
 
 Version Control Systems are mainly divided into **three categories**:
 
-### 3.1 Local Version Control System
+### 1. Local Version Control System
 
 **Concept:**
 
@@ -68,7 +72,7 @@ A **Local Version Control** System is a **self-contained** version management to
 
 ---
 
-### 3.2 Centralized Version Control System (CVCS)
+### 2. Centralized Version Control System (CVCS)
 
 **Concept:**
 
@@ -99,7 +103,7 @@ The **central repository** stores the complete project history, and users must c
 
 ---
 
-### 3.3 Distributed Version Control System (DVCS)
+### 3. Distributed Version Control System (DVCS)
 
 **Concept:**
 

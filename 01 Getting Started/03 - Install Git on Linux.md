@@ -2,23 +2,18 @@
 **Installing Git on Linux System**  
 **Date:** December 18, 2025  
 
----
-
-### **Objective**  
+## Objective 
 To provide step-by-step instructions for installing **Git** on a Linux system using linux package manager.
 
----
-
-### **Prerequisites**  
+## Prerequisites  
 - **Linux** operating system  
 - Internet connection for download  
 - **Administrator** privileges for installation (root or sudo)
 
----
 
 ## Install Git Using Package Manager (Recommended)
 
-### Install Git on RHEL / CentOS / Rocky / AlmaLinux
+### Install Git on RHEL / CentOS 
 
 Step 1: Update system repositories
 ```bash

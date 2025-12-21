@@ -90,14 +90,14 @@ The official Git website maintains a **complete list of GUI tools** for:
 - **GitKraken**
 - **SourceTree**
 
-### Advantages of GUI Tools
+**Advantages of GUI Tools**
 
 - Easy to visualize branches
 - Clear commit graphs
 - Beginner-friendly
 - Useful for complex merge scenarios
 
-### Limitations of GUI Tools
+**Limitations of GUI Tools**
 
 - Not always available on servers
 - Some advanced Git features may be hidden
